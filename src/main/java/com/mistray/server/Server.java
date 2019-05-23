@@ -33,7 +33,7 @@ public final class Server {
                     // 设置连入服务端的 Client 的 SocketChannel的处理器
                     .childHandler(new ServerInitializer());
             // 绑定端口,并同步等待成功,即启动服务器
-            ChannelFuture channelFuture = serverBootstrap.bind(8888);
+            ChannelFuture channelFuture = serverBootstrap.bind(8766);
             // 鉴定服务端关闭,并阻塞等待
             channelFuture.channel().closeFuture().sync();
         } catch (Exception e) {
