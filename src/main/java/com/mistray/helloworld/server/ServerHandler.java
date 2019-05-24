@@ -1,4 +1,4 @@
-package com.mistray.server;
+package com.mistray.helloworld.server;
 
 import io.netty.channel.*;
 import io.netty.channel.ChannelHandler.Sharable;
@@ -9,7 +9,7 @@ import java.util.Date;
 /**
  * @author MistRay
  * @Project netty-study
- * @Package com.mistray.server
+ * @Package com.mistray.helloworld.server
  * @create 2019年05月23日 10:25
  * @Desc
  */

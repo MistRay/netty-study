@@ -1,4 +1,4 @@
-package com.mistray.client;
+package com.mistray.helloworld.client;
 
 import io.netty.channel.ChannelHandler.Sharable;
 import io.netty.channel.ChannelHandlerContext;
@@ -7,7 +7,7 @@ import io.netty.channel.SimpleChannelInboundHandler;
 /**
  * @author MistRay
  * @Project netty-study
- * @Package com.mistray.client
+ * @Package com.mistray.helloworld.client
  * @create 2019年05月23日 10:24
  * @Desc
  */

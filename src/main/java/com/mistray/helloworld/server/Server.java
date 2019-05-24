@@ -1,8 +1,7 @@
-package com.mistray.server;
+package com.mistray.helloworld.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
-import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.logging.LogLevel;
@@ -11,7 +10,7 @@ import io.netty.handler.logging.LoggingHandler;
 /**
  * @author MistRay
  * @Project netty-study
- * @Package com.mistray.server
+ * @Package com.mistray.helloworld.server
  * @create 2019年05月23日 10:25
  * @Desc
  */

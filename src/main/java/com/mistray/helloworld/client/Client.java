@@ -1,4 +1,4 @@
-package com.mistray.client;
+package com.mistray.helloworld.client;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.Channel;
@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
 /**
  * @author MistRay
  * @Project netty-study
- * @Package com.mistray.client
+ * @Package com.mistray.helloworld.client
  * @create 2019年05月23日 10:24
  * @Desc
  */
