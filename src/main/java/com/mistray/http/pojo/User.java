@@ -1,5 +1,7 @@
 package com.mistray.http.pojo;
 
+import lombok.Data;
+
 import java.util.Date;
 
 /**
@@ -9,7 +11,7 @@ import java.util.Date;
  * @create 2019年05月24日 16:40
  * @Desc
  */
-@data
+@Data
 public class User {
     private String userName;
     private String method;
