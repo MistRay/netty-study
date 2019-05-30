@@ -7,7 +7,7 @@
 
 * netty整合springboot并使用protobuf进行传输:未完成
 
-* netty-IM:未完成
+* netty-IM:进行中
 
 * netty-Rpc:未完成
 
